@@ -1,0 +1,25 @@
+@import "../../vars.css";
+
+.section{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding-top: 20px;
+}
+
+.herramientas{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.herramienta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(95, 102, 102);
+    padding: 20px;
+    border-radius: 20px;
+}
+.herramienta img{
+    width: 100px;
+}

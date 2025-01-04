@@ -1,0 +1,43 @@
+@import "../../vars.css";
+.section{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    
+}
+section h1{
+    text-align: center;
+    padding: 20px;
+}
+.deportes{
+    display: flex;
+    justify-content: space-between;
+}
+.deporte{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid, 2px, var(--color-primary);
+    align-items: center;
+    margin: 15px;
+    width: 30%;
+}
+.deporte img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.deporte h2{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.deporte p{
+    padding: 10px;
+    padding-left: 20px;
+    text-align: center;
+}

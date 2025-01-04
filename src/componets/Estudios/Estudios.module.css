@@ -1,0 +1,43 @@
+@import "../../vars.css";
+.section{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    
+}
+section h1{
+    text-align: center;
+    padding: 20px;
+}
+.estudios{
+    display: flex;
+    justify-content: space-between;
+}
+.estudio{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid, 2px, var(--color-secondary);
+    align-items: center;
+    margin: 15px;
+    width: 30%;
+}
+.estudio img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.estudio h2{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.estudio p{
+    padding: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
